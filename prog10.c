@@ -1,8 +1,9 @@
 #include<stdio.h>
-int main()
-{
- float a,b;
- scanf ("%f%f", &a,&b);
- printf ("%f%f ,a,b);
- return 0;
-}
+int main(){
+   int i;
+   for(i=1;i<=10;i++){
+       5*i;
+       printf("5*%d",5*i);
+       }
+    return 0;
+}   

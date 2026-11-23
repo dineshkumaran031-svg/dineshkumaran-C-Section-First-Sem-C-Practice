@@ -1,8 +1,8 @@
 #include<stdio.h>
-int main()
-{
-  char s;
-  scanf ("%c", &s);
-  printf ("%c", s);
+int main(){
+  int i;
+  for(i=10;i>=1;i--)
+     printf("%d\n",i);
+  }
   return 0;
-}
+  }

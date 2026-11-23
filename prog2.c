@@ -1,8 +1,12 @@
-#include<stdio.h>
-int main ()
+#include <stdio.h>
+int main()
 {
-int a;
-scanf("%d",&a);
-printf("%d",a);
-return 0;
+    int i = 1;
+    while (i <= 20)
+    {
+        printf("%d\n", i);
+        i++;
+    }
+    return 0;
 }
+
